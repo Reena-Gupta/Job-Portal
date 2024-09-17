@@ -1,0 +1,211 @@
+2024-09-11 14:19:08.754 +05:30 [INF] Now listening on: https://localhost:7165
+2024-09-11 14:19:08.789 +05:30 [INF] Now listening on: http://localhost:5124
+2024-09-11 14:19:08.997 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 14:19:09.068 +05:30 [INF] Hosting environment: Development
+2024-09-11 14:19:09.069 +05:30 [INF] Content root path: C:\Users\rgupt14\source\repos\CPP_Dapper_WebAPI\CPP_Dapper_WebAPI
+2024-09-11 14:19:09.664 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/index.html - null null
+2024-09-11 14:19:10.274 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 14:19:10.274 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_vs/browserLink - null null
+2024-09-11 14:19:10.283 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/index.html - 200 null text/html;charset=utf-8 622.4265ms
+2024-09-11 14:19:10.303 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 30.999ms
+2024-09-11 14:19:10.336 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.8622ms
+2024-09-11 14:19:10.361 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - null null
+2024-09-11 14:19:10.450 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.1488ms
+2024-09-11 14:19:19.086 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/jobposting/get/2000 - null null
+2024-09-11 14:19:19.115 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.GetJobPostingById (CPP_Dapper_WebAPI)'
+2024-09-11 14:19:19.150 +05:30 [INF] Route matched with {action = "GetJobPostingById", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CPP_Dapper_WebAPI.Models.JobPostings]] GetJobPostingById(Int32) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 14:19:19.763 +05:30 [INF] Executing OkObjectResult, writing value of type 'CPP_Dapper_WebAPI.Models.JobPostings'.
+2024-09-11 14:19:19.775 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.GetJobPostingById (CPP_Dapper_WebAPI) in 610.3989ms
+2024-09-11 14:19:19.780 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.GetJobPostingById (CPP_Dapper_WebAPI)'
+2024-09-11 14:19:19.783 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/jobposting/get/2000 - 200 null application/json; charset=utf-8 697.3509ms
+2024-09-11 14:23:09.421 +05:30 [INF] Now listening on: https://localhost:7165
+2024-09-11 14:23:09.456 +05:30 [INF] Now listening on: http://localhost:5124
+2024-09-11 14:23:09.507 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 14:23:09.513 +05:30 [INF] Hosting environment: Development
+2024-09-11 14:23:09.515 +05:30 [INF] Content root path: C:\Users\rgupt14\source\repos\CPP_Dapper_WebAPI\CPP_Dapper_WebAPI
+2024-09-11 14:23:10.158 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/index.html - null null
+2024-09-11 14:23:10.408 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/index.html - 200 null text/html;charset=utf-8 253.1857ms
+2024-09-11 14:23:10.414 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_vs/browserLink - null null
+2024-09-11 14:23:10.414 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 14:23:10.492 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 76.3994ms
+2024-09-11 14:23:10.514 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.9105ms
+2024-09-11 14:23:10.539 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - null null
+2024-09-11 14:23:10.721 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 181.8726ms
+2024-09-11 14:23:20.487 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/jobposting/get/2000 - null null
+2024-09-11 14:23:20.503 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.GetJobPostingById (CPP_Dapper_WebAPI)'
+2024-09-11 14:23:20.532 +05:30 [INF] Route matched with {action = "GetJobPostingById", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CPP_Dapper_WebAPI.Models.JobPostings]] GetJobPostingById(Int32) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 14:23:21.119 +05:30 [INF] Executing OkObjectResult, writing value of type 'CPP_Dapper_WebAPI.Models.JobPostings'.
+2024-09-11 14:23:21.143 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.GetJobPostingById (CPP_Dapper_WebAPI) in 586.9721ms
+2024-09-11 14:23:21.162 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.GetJobPostingById (CPP_Dapper_WebAPI)'
+2024-09-11 14:23:21.170 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/jobposting/get/2000 - 200 null application/json; charset=utf-8 686.1871ms
+2024-09-11 16:36:12.813 +05:30 [INF] Now listening on: https://localhost:7165
+2024-09-11 16:36:12.848 +05:30 [INF] Now listening on: http://localhost:5124
+2024-09-11 16:36:12.902 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 16:36:12.904 +05:30 [INF] Hosting environment: Development
+2024-09-11 16:36:12.906 +05:30 [INF] Content root path: C:\Users\rgupt14\source\repos\CPP_Dapper_WebAPI\CPP_Dapper_WebAPI
+2024-09-11 16:36:13.583 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/index.html - null null
+2024-09-11 16:36:13.834 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/index.html - 200 null text/html;charset=utf-8 255.7365ms
+2024-09-11 16:36:13.839 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 16:36:13.840 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_vs/browserLink - null null
+2024-09-11 16:36:13.885 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 45.833ms
+2024-09-11 16:36:13.927 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.6766ms
+2024-09-11 16:36:13.967 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - null null
+2024-09-11 16:36:14.067 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 100.0151ms
+2024-09-11 16:36:27.276 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7165/jobposting/insert - application/json 296
+2024-09-11 16:36:27.295 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 16:36:27.342 +05:30 [INF] Route matched with {action = "AddJobPosting", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddJobPosting(CPP_Dapper_WebAPI.Models.JobPostings) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 16:36:28.271 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-09-11 16:36:28.286 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI) in 929.3139ms
+2024-09-11 16:36:28.296 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 16:36:28.305 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7165/jobposting/insert - 500 null text/plain; charset=utf-8 1028.883ms
+2024-09-11 16:37:24.593 +05:30 [INF] Now listening on: https://localhost:7165
+2024-09-11 16:37:24.651 +05:30 [INF] Now listening on: http://localhost:5124
+2024-09-11 16:37:24.723 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 16:37:24.729 +05:30 [INF] Hosting environment: Development
+2024-09-11 16:37:24.731 +05:30 [INF] Content root path: C:\Users\rgupt14\source\repos\CPP_Dapper_WebAPI\CPP_Dapper_WebAPI
+2024-09-11 16:37:25.443 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/index.html - null null
+2024-09-11 16:37:25.677 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/index.html - 200 null text/html;charset=utf-8 239.8837ms
+2024-09-11 16:37:25.681 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 16:37:25.687 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_vs/browserLink - null null
+2024-09-11 16:37:25.706 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 25.659ms
+2024-09-11 16:37:25.742 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.5446ms
+2024-09-11 16:37:25.773 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - null null
+2024-09-11 16:37:25.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.7655ms
+2024-09-11 16:37:37.362 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - application/json 296
+2024-09-11 16:37:37.376 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 16:37:37.410 +05:30 [INF] Route matched with {action = "AddJobPosting", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddJobPosting(CPP_Dapper_WebAPI.Models.JobPostings) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 16:37:38.376 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-09-11 16:37:38.396 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI) in 970.5792ms
+2024-09-11 16:37:38.411 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 16:37:38.421 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - 500 null text/plain; charset=utf-8 1058.5823ms
+2024-09-11 17:02:03.843 +05:30 [INF] Now listening on: https://localhost:7165
+2024-09-11 17:02:03.896 +05:30 [INF] Now listening on: http://localhost:5124
+2024-09-11 17:02:03.963 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 17:02:03.965 +05:30 [INF] Hosting environment: Development
+2024-09-11 17:02:03.968 +05:30 [INF] Content root path: C:\Users\rgupt14\source\repos\CPP_Dapper_WebAPI\CPP_Dapper_WebAPI
+2024-09-11 17:02:04.825 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/index.html - null null
+2024-09-11 17:02:05.026 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/index.html - 200 null text/html;charset=utf-8 207.0375ms
+2024-09-11 17:02:05.040 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_vs/browserLink - null null
+2024-09-11 17:02:05.040 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 17:02:05.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 29.454ms
+2024-09-11 17:02:05.095 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.9054ms
+2024-09-11 17:02:05.121 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - null null
+2024-09-11 17:02:05.238 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.239ms
+2024-09-11 17:02:12.681 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - multipart/form-data; boundary=----WebKitFormBoundaryiJtHuN35p9bpeIBe 44
+2024-09-11 17:02:12.713 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 17:02:12.755 +05:30 [INF] Route matched with {action = "AddJobPosting", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddJobPosting(CPP_Dapper_WebAPI.Models.JobPostings) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 17:02:13.054 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-11 17:02:13.089 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI) in 315.8797ms
+2024-09-11 17:02:13.100 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 17:02:13.106 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - 415 null application/problem+json; charset=utf-8 425.9745ms
+2024-09-11 17:19:03.523 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - application/json 315
+2024-09-11 17:19:03.541 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 17:19:03.546 +05:30 [INF] Route matched with {action = "AddJobPosting", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddJobPosting(CPP_Dapper_WebAPI.Models.JobPostings) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 17:19:04.155 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-11 17:19:04.163 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI) in 608.0334ms
+2024-09-11 17:19:04.172 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 17:19:04.177 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - 200 null text/plain; charset=utf-8 653.9354ms
+2024-09-11 17:20:15.795 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - multipart/form-data; boundary=----WebKitFormBoundaryV0uoh7SxIiBfUVF7 44
+2024-09-11 17:20:15.804 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 17:20:15.807 +05:30 [INF] Route matched with {action = "AddJobPosting", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddJobPosting(CPP_Dapper_WebAPI.Models.JobPostings) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 17:20:15.818 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-11 17:20:15.827 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI) in 11.6028ms
+2024-09-11 17:20:15.838 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 17:20:15.842 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - 415 null application/problem+json; charset=utf-8 47.2583ms
+2024-09-11 17:21:10.292 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - multipart/form-data; boundary=----WebKitFormBoundaryLK4NyCCdenWFpURG 44
+2024-09-11 17:21:10.310 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 17:21:10.314 +05:30 [INF] Route matched with {action = "AddJobPosting", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddJobPosting(CPP_Dapper_WebAPI.Models.JobPostings) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 17:21:10.321 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-11 17:21:10.331 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI) in 10.6984ms
+2024-09-11 17:21:10.343 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 17:21:10.345 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - 415 null application/problem+json; charset=utf-8 54.4217ms
+2024-09-11 17:21:39.866 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - multipart/form-data; boundary=----WebKitFormBoundarymOYxFIH6klZMBtm0 44
+2024-09-11 17:21:39.895 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 17:21:39.903 +05:30 [INF] Route matched with {action = "AddJobPosting", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddJobPosting(CPP_Dapper_WebAPI.Models.JobPostings) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 17:21:39.924 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-11 17:21:39.932 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI) in 8.8888ms
+2024-09-11 17:21:39.942 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 17:21:39.951 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - 415 null application/problem+json; charset=utf-8 85.5152ms
+2024-09-11 18:27:02.285 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7165/api/JobPostings/AddJobPosting - null null
+2024-09-11 18:27:02.308 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-09-11 18:27:02.322 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-09-11 18:27:02.326 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7165/api/JobPostings/AddJobPosting - 405 0 null 42.1544ms
+2024-09-11 18:28:20.644 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7165/api/JobPostings/AddJobPosting - multipart/form-data; boundary=--------------------------641711122578070282177812 160
+2024-09-11 18:28:20.666 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 18:28:20.680 +05:30 [INF] Route matched with {action = "AddJobPosting", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddJobPosting(CPP_Dapper_WebAPI.Models.JobPostings) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 18:28:20.699 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-11 18:28:20.714 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI) in 24.2166ms
+2024-09-11 18:28:20.732 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 18:28:20.742 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7165/api/JobPostings/AddJobPosting - 415 null application/problem+json; charset=utf-8 98.5423ms
+2024-09-11 18:33:24.150 +05:30 [INF] Now listening on: https://localhost:7165
+2024-09-11 18:33:24.186 +05:30 [INF] Now listening on: http://localhost:5124
+2024-09-11 18:33:24.233 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 18:33:24.235 +05:30 [INF] Hosting environment: Development
+2024-09-11 18:33:24.238 +05:30 [INF] Content root path: C:\Users\rgupt14\source\repos\CPP_Dapper_WebAPI\CPP_Dapper_WebAPI
+2024-09-11 18:33:25.144 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/index.html - null null
+2024-09-11 18:33:25.387 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/index.html - 200 null text/html;charset=utf-8 247.419ms
+2024-09-11 18:33:25.394 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 18:33:25.394 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_vs/browserLink - null null
+2024-09-11 18:33:25.413 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 18.8236ms
+2024-09-11 18:33:25.450 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.5975ms
+2024-09-11 18:33:25.480 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - null null
+2024-09-11 18:33:25.574 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.9659ms
+2024-09-11 18:33:40.645 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7165/api/JobPostings/AddJobPosting - null null
+2024-09-11 18:33:40.666 +05:30 [INF] CORS policy execution successful.
+2024-09-11 18:33:40.672 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7165/api/JobPostings/AddJobPosting - 204 null null 28.6608ms
+2024-09-11 18:33:40.676 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - application/json 263
+2024-09-11 18:33:40.699 +05:30 [INF] CORS policy execution successful.
+2024-09-11 18:33:40.712 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 18:33:40.772 +05:30 [INF] Route matched with {action = "AddJobPosting", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddJobPosting(CPP_Dapper_WebAPI.Models.JobPostings) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 18:33:40.971 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-11 18:33:41.027 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI) in 239.3699ms
+2024-09-11 18:33:41.034 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 18:33:41.041 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - 400 null application/problem+json; charset=utf-8 364.6672ms
+2024-09-11 18:38:14.437 +05:30 [INF] Now listening on: https://localhost:7165
+2024-09-11 18:38:14.499 +05:30 [INF] Now listening on: http://localhost:5124
+2024-09-11 18:38:14.571 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 18:38:14.574 +05:30 [INF] Hosting environment: Development
+2024-09-11 18:38:14.577 +05:30 [INF] Content root path: C:\Users\rgupt14\source\repos\CPP_Dapper_WebAPI\CPP_Dapper_WebAPI
+2024-09-11 18:38:15.314 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/index.html - null null
+2024-09-11 18:38:15.647 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/index.html - 200 null text/html;charset=utf-8 338.2716ms
+2024-09-11 18:38:15.657 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 18:38:15.668 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_vs/browserLink - null null
+2024-09-11 18:38:15.741 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 84.2098ms
+2024-09-11 18:38:15.843 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 181.0733ms
+2024-09-11 18:38:15.981 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - null null
+2024-09-11 18:38:16.176 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 195.9048ms
+2024-09-11 18:38:46.488 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7165/api/JobPostings/AddJobPosting - null null
+2024-09-11 18:38:46.521 +05:30 [INF] CORS policy execution successful.
+2024-09-11 18:38:46.533 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7165/api/JobPostings/AddJobPosting - 204 null null 45.5253ms
+2024-09-11 18:38:46.538 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - application/json 263
+2024-09-11 18:38:46.563 +05:30 [INF] CORS policy execution successful.
+2024-09-11 18:38:46.573 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 18:38:46.620 +05:30 [INF] Route matched with {action = "AddJobPosting", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddJobPosting(CPP_Dapper_WebAPI.Models.JobPostings) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 18:38:47.044 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-11 18:38:47.165 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI) in 523.9603ms
+2024-09-11 18:38:47.170 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 18:38:47.173 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - 400 710 application/problem+json; charset=utf-8 636.0471ms
+2024-09-11 18:59:30.742 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7165/api/JobPostings/AddJobPosting - null null
+2024-09-11 18:59:30.767 +05:30 [INF] CORS policy execution successful.
+2024-09-11 18:59:30.768 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7165/api/JobPostings/AddJobPosting - 204 null null 26.1427ms
+2024-09-11 18:59:30.777 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - application/json 262
+2024-09-11 18:59:30.827 +05:30 [INF] CORS policy execution successful.
+2024-09-11 18:59:30.831 +05:30 [INF] Executing endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 18:59:30.840 +05:30 [INF] Route matched with {action = "AddJobPosting", controller = "JobPostings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddJobPosting(CPP_Dapper_WebAPI.Models.JobPostings) on controller CPP_Dapper_WebAPI.Controllers.JobPostingsController (CPP_Dapper_WebAPI).
+2024-09-11 18:59:31.475 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-09-11 18:59:31.483 +05:30 [INF] Executed action CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI) in 624.8232ms
+2024-09-11 18:59:31.491 +05:30 [INF] Executed endpoint 'CPP_Dapper_WebAPI.Controllers.JobPostingsController.AddJobPosting (CPP_Dapper_WebAPI)'
+2024-09-11 18:59:31.494 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7165/api/JobPostings/AddJobPosting - 500 null text/plain; charset=utf-8 716.9045ms
+2024-09-11 19:04:43.600 +05:30 [INF] Now listening on: https://localhost:7165
+2024-09-11 19:04:43.651 +05:30 [INF] Now listening on: http://localhost:5124
+2024-09-11 19:04:43.712 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 19:04:43.716 +05:30 [INF] Hosting environment: Development
+2024-09-11 19:04:43.721 +05:30 [INF] Content root path: C:\Users\rgupt14\source\repos\CPP_Dapper_WebAPI\CPP_Dapper_WebAPI
+2024-09-11 19:04:44.333 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/index.html - null null
+2024-09-11 19:04:44.645 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/index.html - 200 null text/html;charset=utf-8 316.154ms
+2024-09-11 19:04:44.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_vs/browserLink - null null
+2024-09-11 19:04:44.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 19:04:44.677 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 29.159ms
+2024-09-11 19:04:44.702 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.7093ms
+2024-09-11 19:04:44.729 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - null null
+2024-09-11 19:04:44.860 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.7802ms

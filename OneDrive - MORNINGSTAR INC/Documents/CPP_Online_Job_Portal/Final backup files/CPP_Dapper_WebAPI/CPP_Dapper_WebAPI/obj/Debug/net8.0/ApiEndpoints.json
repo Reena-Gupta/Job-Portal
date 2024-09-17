@@ -1,0 +1,634 @@
+[
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.AdminController",
+    "Method": "GetAdminById",
+    "RelativePath": "admin/get/{Admin_Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Admin_Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CPP_Dapper_WebAPI.Models.Admin",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.AdminController",
+    "Method": "AddAdmin",
+    "RelativePath": "api/Admin/AddAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "owner",
+        "Type": "CPP_Dapper_WebAPI.Models.Admin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.AdminController",
+    "Method": "GetAdminById",
+    "RelativePath": "api/Admin/GetAdminById/{Admin_Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Admin_Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CPP_Dapper_WebAPI.Models.Admin",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.AdminController",
+    "Method": "GetAdminbyusername",
+    "RelativePath": "api/Admin/GetAdminbyusername/{Username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CPP_Dapper_WebAPI.Models.Admin",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JobPortalWebAPI.Controllers.JobApplicationController",
+    "Method": "GetJobAppByEmail",
+    "RelativePath": "api/JobApplication/GetJobAppByEmail/{remail}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "remail",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JobPortalWebAPI.Models.JobApplication",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JobPortalWebAPI.Controllers.JobApplicationController",
+    "Method": "GetJobApplicationByEmail",
+    "RelativePath": "api/JobApplication/GetJobApplicationByEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobPortalWebAPI.Controllers.JobApplicationController",
+    "Method": "UpdateJobapplicaton",
+    "RelativePath": "api/JobApplication/UpdateJobapplicaton/{recruitemail}/{job_title}/{status}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruitemail",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "job_title",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.JobPostingsController",
+    "Method": "AddJobPosting",
+    "RelativePath": "api/JobPostings/AddJobPosting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobPosting",
+        "Type": "CPP_Dapper_WebAPI.Models.JobPostings",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.JobPostingsController",
+    "Method": "Agetalljobpostings",
+    "RelativePath": "api/JobPostings/Agetalljobpostings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CPP_Dapper_WebAPI.Models.JobPostings",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.JobPostingsController",
+    "Method": "DeleteJobPosting",
+    "RelativePath": "api/JobPostings/DeleteJobPosting/{job_title}/{remail}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "job_title",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "remail",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.JobPostingsController",
+    "Method": "GetAllJobPostings",
+    "RelativePath": "api/JobPostings/GetAllJobPostings/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.JobPostingsController",
+    "Method": "GetJobPostingById",
+    "RelativePath": "api/JobPostings/GetJobPostingById/{recruiteremail}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiteremail",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CPP_Dapper_WebAPI.Models.JobPostings",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.JobPostingsController",
+    "Method": "UpdateJobPosting",
+    "RelativePath": "api/JobPostings/UpdateJobPosting/{recruitemail}/{job_title}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruitemail",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "job_title",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "jobPosting",
+        "Type": "CPP_Dapper_WebAPI.Models.JobPostings",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobPortalWebAPI.Controllers.JobSeekerController",
+    "Method": "AddJobseeker",
+    "RelativePath": "api/JobSeeker/AddJobseeker",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobseeker",
+        "Type": "JobPortalWebAPI.Models.Jobseeker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobPortalWebAPI.Controllers.JobSeekerController",
+    "Method": "Agetalljs",
+    "RelativePath": "api/JobSeeker/Agetalljs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "JobPortalWebAPI.Models.Jobseeker",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JobPortalWebAPI.Controllers.JobSeekerController",
+    "Method": "DeleteJobseeker",
+    "RelativePath": "api/JobSeeker/DeleteJobseeker/{email}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobPortalWebAPI.Controllers.JobSeekerController",
+    "Method": "GetJobSeekerByEmail",
+    "RelativePath": "api/JobSeeker/GetJobSeekerByEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JobPortalWebAPI.Models.Jobseeker",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JobPortalWebAPI.Controllers.JobSeekerController",
+    "Method": "Login",
+    "RelativePath": "api/JobSeeker/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "JobPortalWebAPI.Models.LoginReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobPortalWebAPI.Controllers.JobSeekerController",
+    "Method": "RegisterJobseekers",
+    "RelativePath": "api/JobSeeker/RegisterJobseekers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "JobPortalWebAPI.Models.RegisterReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobPortalWebAPI.Controllers.JobSeekerController",
+    "Method": "UpdateJobSeekerByEmailAsync",
+    "RelativePath": "api/JobSeeker/UpdateJobSeekerByEmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "JobPortalWebAPI.Models.Jobseeker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.RecruitersController",
+    "Method": "AddRecruiters",
+    "RelativePath": "api/Recruiters/AddRecruiters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruit",
+        "Type": "CPP_Dapper_WebAPI.Models.Recruiters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.RecruitersController",
+    "Method": "Agetallrecruiter",
+    "RelativePath": "api/Recruiters/Agetallrecruiter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CPP_Dapper_WebAPI.Models.Recruiters",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.RecruitersController",
+    "Method": "DeleteRecruiters",
+    "RelativePath": "api/Recruiters/DeleteRecruiters/{email}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.RecruitersController",
+    "Method": "GetRecruitersByEmail",
+    "RelativePath": "api/Recruiters/GetRecruitersByEmail/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CPP_Dapper_WebAPI.Models.Recruiters",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.RecruitersController",
+    "Method": "Login",
+    "RelativePath": "api/Recruiters/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "JobPortalWebAPI.Models.LoginReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.RecruitersController",
+    "Method": "RegisterRecruiters",
+    "RelativePath": "api/Recruiters/RegisterRecruiters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "JobPortalWebAPI.Models.RegisterReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.RecruitersController",
+    "Method": "UpdateRecruiters",
+    "RelativePath": "api/Recruiters/UpdateRecruiters/{recruitemail}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruitemail",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "recruit",
+        "Type": "CPP_Dapper_WebAPI.Models.Recruiters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.RecruitersController",
+    "Method": "DeleteRecruiters",
+    "RelativePath": "recruiters/delete/{email}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.RecruitersController",
+    "Method": "GetRecruitersByEmail",
+    "RelativePath": "recruiters/get/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CPP_Dapper_WebAPI.Models.Recruiters",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.RecruitersController",
+    "Method": "UpdateRecruiters",
+    "RelativePath": "recruiters/update/{recruitemail}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruitemail",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "recruit",
+        "Type": "CPP_Dapper_WebAPI.Models.Recruiters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPP_Dapper_WebAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CPP_Dapper_WebAPI.WeatherForecast, CPP_Dapper_WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CPP_Dapper_WebAPI.props" />
+</Project>
